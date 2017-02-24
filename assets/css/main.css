@@ -1,1 +1,126 @@
-/* custom styles */
+body {
+    text-align: center;
+    background-image: url("file:///Users/owner/Downloads/pineapples-107498.jpg");
+    background-size: cover;
+    height:100%;
+    width:100%;
+}
+
+nav {
+    background-color: gray;
+}
+
+nav a {
+    background-color: navy;
+    color: white;
+    padding: 15px;
+    margin: 0px;
+    display: block;
+    float: left;
+    border: 0px;
+}
+
+a:hover {
+    background-color: gray;
+}
+
+header {
+    text-align: center;
+    background: url("http://i.imgur.com/WqyBSnF.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    opacity: 1;
+    border: 0px;
+    text-shadow: 2px 2px gray;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+
+#introWrapper {
+    text-align: left;
+    height: 100%;
+    background-color: #66ccff;
+    width: 50%;
+    border: solid black 1px;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+div img {
+    height: 200px;
+    width: 180px;
+    display: inline-block;
+    text-align: left;
+    float: left;
+    margin: 10px;
+    clear: both;
+}
+
+img:hover {
+    outline: 3px solid red;
+}
+
+#keys {
+    float: right;
+    border: solid #66ccff 10px;
+    border-radius: 15px;
+    display: inline-block;
+    position: relative;
+    left: -150px;
+    top: -225px;
+    clear: both;
+    padding: 5px;
+    text-align: left;
+}
+.button{
+  display: inline-block;;
+  height: 50px;
+  width: 200px;
+  background: black;
+  color: white;
+  font: 17px/50px Helvetica, Verdana, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+  position: fixed;
+  right: 50px;
+  top:0px;
+  float:right;
+  clear:both;
+}
+.button:hover{
+  background-color: gray;
+}
+.projName{
+  color: #33cc33;
+  font-size: 20px;
+  text-shadow: 3px 3px black;
+
+}
+#project {
+    display: inline-block;
+}
+
+#project2 {
+    display: inline-block;
+}
+
+#project3 {
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    clear: both;
+}
