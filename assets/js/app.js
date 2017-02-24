@@ -1,9 +1,7 @@
 // sanity check
-console.log("app.js linked.");
-console.log('hi');
-//var button = document.getElementById('private');
 //var privateLink = document.createElement("private");
-//document.getElementById("private").addEventListener("click", password);
+var button = document.getElementById('private');
+button.addEventListener("click", prompt("password?"));
 function password(){
   console.log('pw');
   var reply = prompt("please enter password");
