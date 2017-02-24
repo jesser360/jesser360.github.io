@@ -1,3 +1,12 @@
+MY README:
+This is my personal website created using html, css, and soon Java script. The purpose of this website is to demostrate my skills and abilities as a web developer. I have included links to  examples of past projects I wrote and designed. I have also included methods for viewers to contact me such as an email box, links to my Linkedin, GitHub and Facebook profiles. Please browse this site and feel free to get in touch with me through the means provided on the page, enjoy! 
+
+
+
+
+
+
+
 # Learn Git Training
 
 1. Create a fork of [this](https://github.com/sf-wdi-36/personal-portfolio) by clicking "Fork" on the top right.
