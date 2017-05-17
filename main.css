@@ -1,0 +1,168 @@
+/* custom styles */
+
+.main-gif{
+  width:100%;
+  height:110%;
+  margin-top: -50px;
+  position: fixed;
+  z-index: -1;
+  clear:both;
+}
+.proj-header{
+  display: block;
+  clear: both;
+}
+.hidden{
+  display: none;
+  position: relative;
+  z-index: -1;
+  clear:both;
+  font-family: 'Optima';
+}
+.empty-block{
+  display: block;
+  margin:140px;
+  clear:both;
+}
+.item{
+  font-size: 25px;
+  font-family: 'Optima';
+  ;text-shadow: 1px 1px 1px black;
+}
+.hi-im{
+  font-size: 60px;
+  color:#6f6d6f;
+  margin:80px;
+  margin-top: 100px !important;
+  font-family: 'Optima';
+}
+.title{
+  margin-top:40px;
+  font-size: 60px;
+  color:#6f6d6f;
+  font-family: 'Optima';
+}
+.trans{
+  font-size: 30px;
+}
+.proj-pic{
+  width:100%;
+  margin:30px;
+}
+.trans{
+  color: red;
+}
+.click{
+  margin-top:-15px;
+  margin-left:15px;
+  font-style: italic !important;
+}
+.git-pic{
+  height:4vw;
+}
+.git-pic:hover{
+  animation: pulse 2s infinite;
+}
+.proj1{
+  background-color: #b6b4b6;
+  border:none
+}
+.proj2{
+  background-color: #6f6d6f;
+}
+.home-pic{
+  border-radius: 50%;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+height: auto;
+width: auto;
+max-width: 65px;
+max-height: 65px;
+margin-top: 75px;
+border:3px solid black;
+-webkit-box-shadow: 1px 1px 1px 1px #fff;
+-moz-box-shadow: 1px 1px 1px 1px #fff;
+box-shadow: 1px 1px 1px 1px #fff;
+margin-top: auto;
+position: fixed;
+z-index: 1000;
+margin-left:25px;
+}
+.bigger{
+  border-radius: 50%;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+height: auto;
+width: auto;
+max-width: 200px;
+max-height: 200px;
+border:3px solid black;
+-webkit-box-shadow: 1px 1px 1px 1px #fff;
+-moz-box-shadow: 1px 1px 1px 1px #fff;
+box-shadow: 1px 1px 1px 1px #fff;
+}
+#msg{
+ position:fixed;
+ margin-left:100px;
+ color:black;
+ z-index:100;
+ font-weight:bold;
+ font-size: 19px;
+ font-family: 'Optima';
+}
+
+.contact{
+  color:white;
+  font-family: 'Optima';
+}
+.phone{
+  height:110%;
+  width:100%;
+  margin-top: -14px;
+  z-index:-10;
+}
+.iconz{
+  width:3vw;
+  margin:15px;
+}
+.ikon{
+  width:5vw;
+}
+.iconz:hover{
+  animation: pulse 1s infinite;
+}
+.phone-icon{
+  width:3vw;
+  /*margin-right:12vw;*/
+}
+.button:hover{
+  animation: pulse 2s infinite;
+}
+.button{
+  width: 155px;
+  font-size: 155px;
+}
+body{
+  font-family: 'Optima';
+}
+.words{
+  font-family: 'Optima';
+  margin:40px;
+  text-shadow: 2px 2px 7px black;
+  color:#b6b4b6;
+}
+.des{
+  font-family: 'Optima';
+}
+.skills{
+  font-family: 'Optima';
+  font-size:35px;
+  text-shadow: 2px 2px 11px black;
+  color:#b6b4b6;
+}
+.aboutem{
+  margin-top: 60px !important;
+}
+#port{
+  margin-bottom:70px;
+}
