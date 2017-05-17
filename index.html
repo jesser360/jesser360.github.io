@@ -1,212 +1,254 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+<html>
 
-    <title>Carousel Template for Bootstrap</title>
+<head>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="/Users/owner/wdi/personal-portfolio/assets/css/main.css">
+  <link <meta charset="utf-8">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="/Users/owner/wdi/personal-portfolio/assets/js/app.js"></script>
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <title>Jesse's portfolio</title>
+</head>
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src = "assets/js/app.js" type = "text/javascript"></script>
-    <!-- Custom styles for this template -->
-    <link href="assets/css/carousel.css" rel="stylesheet">
-  </head>
-<!-- NAVBAR
-================================================== -->
-  <body>
-    <div class="navbar-wrapper">
-      <div class="container">
-
-        <nav class="navbar navbar-inverse navbar-static-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Project name</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-
+<body>
+  <div class="ui grid main-gif">
+    <div class="row">
+      <div class=" sixteen wide column">
+        <img src="http://i.imgur.com/REiiBmm.gif" class="main-gif" />
       </div>
     </div>
-
-
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Example headline.</h1>
-              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-            </div>
-          </div>
-        </div>
+  </div>
+  <div id="top" class="ui grid centered proj-header ">
+    <div class=" two wide column">
+      <img id="top-btn" src="http://i.imgur.com/TAALsdM.png" class="home-pic" />
+      <p id="msg" class="hidden" style="margin-left:10px">going up?</p>
+    </div>
+    <div class="six wide column">
+    </div>
+    <div class=" eight wide column">
+      <div class="ui three item menu stay" style="background-color: transparent;border:none !important">
+        <a id="about-btn" class=" item trans" style="color:lightgray">About</a>
+        <a id="port-btn" class="item trans" style="color:#6f6d6f;text-shadow: 1px 1px 1px black">Portfolio</a>
+        <a id="contact-btn" class="item trans" style="text-shadow: 1px 1px 1px #6f6d6f">Contact</a>
       </div>
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div><!-- /.carousel -->
-
-
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="img-circle" src="./assets/imgs/headshot.jpg" alt="Headshot" width="140" height="140">
-          <h2>Bio</h2>
-          <p>I used to be a general contractor, with a passion for travel and sustainable building, until I transitioned into a more corporate environment. I worked as  a massage/physical therapist for tech firms here in the bay, as their private, in-office consultant.
-Most recently, while traveling in East Africa, I was able to help some of my local friends out there, by building a few websites for their businesses. I had taken an AP computer science class my senior year of high school, so I was able to create a simple yet functioning site for my him. While I was there to work on some building projects. I realized I was a much greater asset to people with my coding knowledge, than I was with my building skills, and decided to pursue web development full time.”
-Currently I am in the WDI program at GA, and I find myself enjoying the back end, databases, and logical aspects of programming. I am hoping to become either a back end, or full stack developer for a company that is focused on health advancements and technology.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-
-
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
+    </div>
+    <div class="empty-block">
+    </div>
+  </div>
+  <div class="ui grid">
+    <div class="row open-msg">
+      <div class="nine wide column">
+        <div class=" hi-im">Hi, Im Jesse. Im a...</div>
+      </div>
+      <div class="six wide column left align ">
+        <br /><br /><br />
+        <div class="title" id='content-1'>Developer</div>
+        <div class="title" id='content-2'>Musician</div>
+        <div class="title" id='content-3'>Martial Artist</div>
+        <div class="title" id='content-4'>Traveler</div>
+        <div class="title" id='content-5'>Developer</div>
+        <div class="title" id='content-6'>Mixologist</div>
+        <div class="title" id='content-7'>Meme Lover</div>
+        <div class="title" id='content-8'>Juggler</div>
+      </div>
+    </div>
+    <div id ="about">
+    </div>
+  </div>
+  <div class="ui grid container centered aboutem">
+    <div>
+    </div>
+    <h1 style="text-shadow: 2px 2px 4px #6f6d6f;font-size:33px;">Modern</h1>
+    <h1 style="color:#6f6d6f;text-shadow: 2px 2px 1px black;font-size:33px;">Intuitive</h1>
+    <h1 style="color:lightgray;text-shadow: 2px 2px 1px #6f6d6f;font-size:33px;">Functional</h1>
+    <h1 class="skills">Creating intricite and layered websites with a simple and straighforward user experience</h1>
+  </div>
+  <div class="ui grid container about">
+    <div class="sixteen wide column">
+      <br />
+    </div>
+    <div class="row">
+      <div class="four wide column left aligned">
+        <h1 class="words">ReactJS</h1>
+        <h1 class="words">AngularJS</h1>
+        <h1 class="words">Ruby on Rails</h1>
+        <h1 class="words">postgreSQL</h1>
+      </div>
+      <div class="four wide column right aligned">
+        <h1 class="icons"><img src ="http://i.imgur.com/00mglpS.png" class ="ikon" /></h1>
+        <h1 class="icons"><img src ="http://i.imgur.com/NKbtEdv.png" class ="ikon" /></h1>
+        <h1 class="icons"><img src ="http://i.imgur.com/00mglpS.png" class ="ikon" /></h1>
+        <h1 class="icons"><img src ="http://i.imgur.com/NKbtEdv.png" class ="ikon" /></h1>
       </div>
 
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
+      <div class="four wide column left aligned">
+        <h1 class="words">JavaScript</h1>
+        <h1 class="words">MongoDB</h1>
+        <h1 class="words">Express</h1>
+        <h1 class="words">Node.js</h1>
       </div>
 
-      <hr class="featurette-divider">
+      <div class="four wide column right aligned">
+        <h1 class="icons"><img src ="http://i.imgur.com/NKbtEdv.png" class ="ikon" /></h1>
+        <h1 class="icons"><img src ="http://i.imgur.com/00mglpS.png" class ="ikon" /></h1>
+        <h1 class="icons"><img src ="http://i.imgur.com/NKbtEdv.png" class ="ikon" /></h1>
+        <h1 class="icons"><img src ="http://i.imgur.com/00mglpS.png" class ="ikon" /></h1>
+        <br /><br /><br />
+      </div>
+    </div>
+  </div>
+  <div id="port">
+  </div>
+  <div class="ui grid centered proj-header">
+    <div class="row">
+      <h1 class="des five column wide proj-header skills">Portfolio</h1>
+    </div>
+  </div>
+  <div class="ui container">
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    <div class="ui top attached tabular menu">
+      <a class="active item ruby" style="color:#9e9a9e">Ruby on Rails</a>
+      <a class="item free" style="color:#9e9a9e">Freelance</a>
+      <a class="item react" style="color:#9e9a9e">React/MEN stack</a>
+      <a class="item games" style="color:#9e9a9e">Games</a>
+    </div>
+  </div>
+  <div class="ui active bottom attached segment" style="border:none;background-color:none" id="ruby-proj">
+    <div class="ui proj1">
+      <div class="ui grid">
+        <div class="eight wide column" style="padding:20px">
+          <a target="_blank" class="yard-still" href="https://yardspace.herokuapp.com"><img id="yard-still" src="http://i.imgur.com/5uQyk1D.png" class="proj-pic" /></a>
+          <h2 class="hidden click des" id="yardclick">Click to check out the actual site!</h2>
         </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        <div class="six wide column des" style="margin:50px">
+          <h2 class="des">YardSpace -- Ruby on Rails(postgreSQL)</h2>
+          <h3 class="des">Proof of concept of a social platform connecting travelers with hosts who have made their yards available to camp in. Features real-time messaging abilities, calendar booking system, friend requests, reviews, ratings and much more.  The app is user tested, production ready, and slowly growing a user base</h3>
+          <a target="_blank" href="https://github.com/jesser360/YardSpace"><img src="http://i.imgur.com/IFKFr9N.png" class="git-pic" /></a>
         </div>
       </div>
+    </div>
+    <br />
+    <div class="ui container-fluid proj2">
+      <div class="ui grid">
+        <div class="eight wide column" style="padding:20px">
+          <a target="_blank" class="trade-still" href="https://trade-up.herokuapp.com"><img id="trade-still" src="http://i.imgur.com/9LCgIzz.png" class="proj-pic" /></a>
+          <h2 class="hidden click des" id="tradeclick">Click to check out the actual site!</h2>
+        </div>
+        <div class="six wide column" style="margin:50px">
+          <h2 class="des">TradeUp -- Ruby on Rails(postgreSQL)</h2>
+          <h3 class="des">Proof of concept of a social platform connecting travelers with hosts who have made their yards available to camp in. Features real-time messaging abilities, calendar booking system, friend requests, reviews, ratings and much more.  The app is user tested, production ready, and slowly growing a user base</h3>
+          <a target="_blank" href="https://github.com/jesser360/TradeUp_1"><img src="http://i.imgur.com/IFKFr9N.png" class="git-pic" /></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class=" ui bottom attached segment hidden" id="free-proj">
+    <div class="ui proj2">
+      <div class="ui grid">
+        <div class="seven wide column">
+          <a target="_blank" href="https://studio-ben-shifra.herokuapp.com"><img src="http://i.imgur.com/4ETB62L.png" class="proj-pic" /></a>
+        </div>
+        <div class="seven wide column" style="margin:50px">
+          <h2 class="des">Studio Shifra -- Ruby on Rails(postgreSQL)</h2>
+          <h3 class="des">E commerce site made for a local artist client to display and sell
+              their art work. Designed specifically with their product and market in mind. All features are handmade, which include a
+              shopping cart for both users and guests, credit card payments, user information security measures, and a message board/reviews for users</h3>
+          <a target="_blank" href="https://github.com/jesser360/Studio-ben-Shifra"><img src="http://i.imgur.com/IFKFr9N.png" class="git-pic" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="ui proj1">
+      <div class="ui grid">
+        <div class="seven wide column">
+          <a target="_blank" href="http://www.zoezimski.com/"><img src="http://i.imgur.com/SgjCK8F.png" class="proj-pic" /></a>
+        </div>
+        <div class="seven wide column" style="margin:50px">
+          <h2 class="des">Designer Profile -- Angular(MEAN stack)</h2>
+          <h3 class="des">Personal website for a New York fashion designer to display their work and the events they organize. Design was very important to this client and had to accurately reflect the style and theme of their products.
+                  Built as a single page app with quick loading components and data binding for the front and back end</h3>
+          <a target="_blank" href="https://github.com/jesser360/Studio-ben-Shifra"><img src="http://i.imgur.com/IFKFr9N.png" class="git-pic" /></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ui bottom attached segment hidden" id="react-proj">
+    <div class="ui container-fluid proj1">
+      <div class="ui grid">
+        <div class="seven wide column" style="padding:20px">
+          <a target="_blank" href="https://yardspace.herokuapp.com"><img src="http://i.imgur.com/6NYuaxQ.png" class="proj-pic" /></a>
+        </div>
+        <div class="seven wide column" style="margin:50px">
+          <h2 class="des">WingIt Travel-- React(MERN stack)</h2>
+          <h3 class="des">An app that allows users to explore new cities, connect with others, and post their experiences. Built with React on the front end, and MongoDb,Express, and Node.js on the backend. Features include an authorization system with email authentication, full blog crud, single page app, external city api, reviews and ratings by each user</h3>
+          <a target="_blank" href="https://github.com/jesser360/wingIt"><img src="http://i.imgur.com/IFKFr9N.png" class="git-pic" /></a>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="ui container-fluid proj2">
+      <div class="ui grid">
+        <div class="seven wide column" style="padding:20px">
+          <a target="_blank" href="https://trade-up.herokuapp.com"><img src="http://i.imgur.com/ftTPrmd.png" class="proj-pic" /></a>
+        </div>
+        <div class="seven wide column" style="margin:50px">
+          <h2 class="des">Barkr -- MEN stack</h2>
+          <h3 class="des">Barkr is a social meetup app where Dog owners can meetup based on their dog's profile. Technolgies used were MongoDb, Exress, and Node.js, wuith Javacscript and jQuery on the front end. Users are able to sign in, create personal and puppy profiles, then search for other compatible pups and people to meetup with</h3>
+          <a target="_blank" href="https://github.com/jesser360/barkr"><img src="http://i.imgur.com/IFKFr9N.png" class="git-pic" /></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ui bottom attached segment hidden " id="games-proj">
+    <div class="ui container-fluid proj1">
+      <div class="ui grid">
+        <div class="seven wide column" style="padding:20px">
+          <a target="_blank" href="https://yardspace.herokuapp.com"><img src="http://i.imgur.com/ys3dg8x.png" class="proj-pic" /></a>
+        </div>
+        <div class="seven wide column" style="margin:50px">
+          <h2 class="des">The Presidential Race -- MEN stack</h2>
+          <h3 class="des">Game allows two users to race each other with the candidate of their choice, using the computer keys. The timer counts down and its off to races to see who has the quicker fingers! The game keeps track of score, provides commentary, and has an interactive map with roadblocks and traps</h3>
+          <a target="_blank" href="https://github.com/jesser360/Racing-Game"><img src="http://i.imgur.com/IFKFr9N.png" class="git-pic" /></a>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="ui container-fluid proj2">
+      <div class="ui grid">
+        <div class="seven wide column" style="padding:20px">
+          <a target="_blank" href="https://trade-up.herokuapp.com"><img src="http://i.imgur.com/4yK7jvw.png" class="proj-pic" /></a>
+        </div>
+        <div class="seven wide column" style="margin:50px">
+          <h2 class="des">Tic Tac Toe- MEN stack</h2>
+          <h3 class="des">Everyones favorite childhood game is brought to life in this fun and interactive version of tic tac toe. Options to play against your friend, or against the computer which has built in logic and strategy. The app keeps track of the score, gives you encouragement after each round, and offers helpful tips along the way!</h3>
+          <a target="_blank" href="https://github.com/namelessprofit/TradeUp_1"><img src="http://i.imgur.com/IFKFr9N.png" class="git-pic" /></a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-      <hr class="featurette-divider">
+  <div class="ui container-fluid grid contact right aligned" style="background-color:#050b1c">
+    <div class="four wide column">
+      <br /><br />
+      <h2><img class = "phone-icon" src ="http://i.imgur.com/4igLBAx.png" />(510)590-8368</h2>
+      <h2><img class = "phone-icon" src ="http://i.imgur.com/LePlpk1.png" />  jesser360@gmail.com</h2>
+      <br /><br />
+      <a target="_blank" href="https://docs.google.com/document/d/12IzwCvNIjv7HKAH5hjC-tqVM5C8RZzNuN3py3_V_rJE/edit"><button class="ui inverted grey button">Resume</button></a>
 
-      <!-- /END THE FEATURETTES -->
+    </div>
+    <div class="four wide column">
+      <h1 id="contact" class="des">Get to know me</h1>
+      <img class="bigger" src="http://i.imgur.com/j5v8TRk.jpg" />
+      <br />
+      <a target="_blank" href="https://www.linkedin.com/in/jesse-rosenbloom-4a25996a/"><img src="http://i.imgur.com/yfrzLBb.png" class="iconz" /></a>
+      <a target="_blank" href="https://github.com/jesser360"><img src="http://i.imgur.com/Zk5HkNK.jpg" class="iconz" /></a>
+      <a target="_blank" href="https://www.facebook.com/akhilananda.rosenbloom"><img src="http://i.imgur.com/4GAbizY.png" class="iconz" /></a>
+    </div>
+    <div class="eight wide column">
+      <img src="http://i.imgur.com/FYfBwyz.gif" class="phone" />
+    </div>
+  </div>
 
+</body>
 
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-
-    </div><!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="../../assets/js/vendor/holder.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
 </html>

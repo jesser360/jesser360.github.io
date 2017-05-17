@@ -1,272 +1,168 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
+/* custom styles */
 
-body {
-  padding-bottom: 40px;
-  color: #5a5a5a;
-}
-
-
-/* CUSTOMIZE THE NAVBAR
--------------------------------------------------- */
-
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
-.navbar-wrapper {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 20;
-}
-
-/* Flip around the padding for proper display in narrow viewports */
-.navbar-wrapper > .container {
-  padding-right: 0;
-  padding-left: 0;
-}
-.navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-.navbar-wrapper .navbar .container {
-  width: auto;
-}
-
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
-.carousel {
-  height: 500px;
-  margin-bottom: 60px;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 500px;
-  background-color: #777;
-}
-.carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 500px;
-}
-
-
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 20px;
-  text-align: center;
-}
-.marketing h2 {
-  font-weight: normal;
-}
-.marketing .col-lg-4 p {
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
-
-/* Featurettes
-------------------------- */
-
-.featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
-}
-
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -1px;
-}
-
-
-/* RESPONSIVE CSS
--------------------------------------------------- */
-
-@media (min-width: 768px) {
-  /* Navbar positioning foo */
-  .navbar-wrapper {
-    margin-top: 20px;
-  }
-  .navbar-wrapper .container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  .navbar-wrapper .navbar {
-    padding-right: 0;
-    padding-left: 0;
-  }
-
-  /* The navbar becomes detached from the top, so we round the corners */
-  .navbar-wrapper .navbar {
-    border-radius: 4px;
-  }
-
-  /* Bump up size of carousel content */
-  .carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 21px;
-    line-height: 1.4;
-  }
-
-  .featurette-heading {
-    font-size: 50px;
-  }
-}
-
-@media (min-width: 992px) {
-  .featurette-heading {
-    margin-top: 120px;
-  }
-}
-
-
-
-
-
-
-
-
-
-/*body {
-    text-align: center;
-    background-image: url("file:///Users/owner/Downloads/pineapples-107498.jpg");
-    background-size: cover;
-    height:100%;
-    width:100%;
-}
-
-nav {
-    background-color: gray;
-}
-
-nav a {
-    background-color: navy;
-    color: white;
-    padding: 15px;
-    margin: 0px;
-    display: block;
-    float: left;
-    border: 0px;
-}
-
-a:hover {
-    background-color: gray;
-}
-
-header {
-    text-align: center;
-    background: url("http://i.imgur.com/WqyBSnF.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    margin: 0px;
-    opacity: 1;
-    border: 0px;
-    text-shadow: 2px 2px gray;
-    font-size: 20px;
-}
-
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    content: " ";
-    clear: both;
-    height: 0;
-    font-size: 0;
-}
-
-#introWrapper {
-    text-align: left;
-    height: 100%;
-    background-color: #66ccff;
-    width: 50%;
-    border: solid black 1px;
-    border-radius: 10px;
-    opacity: 1;
-}
-
-div img {
-    height: 200px;
-    width: 180px;
-    display: inline-block;
-    text-align: left;
-    float: left;
-    margin: 10px;
-    clear: both;
-}
-
-img:hover {
-    outline: 3px solid red;
-}
-
-#keys {
-    float: right;
-    border: solid #66ccff 10px;
-    border-radius: 15px;
-    display: inline-block;
-    position: relative;
-    left: -150px;
-    top: -225px;
-    clear: both;
-    padding: 5px;
-    text-align: left;
-    font-size: 18px;
-    text-shadow:2px 2px gray;
-}
-.button{
-  display: inline-block;;
-  height: 50px;
-  width: 200px;
-  background: white;
-  color: white;
-  font: 17px/50px Helvetica, Verdana, sans-serif;
-  text-decoration: none;
-  text-align: center;
-  border-radius: 10px;
-  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+.main-gif{
+  width:100%;
+  height:110%;
+  margin-top: -50px;
   position: fixed;
-  right: 50px;
-  top:0px;
-  float:right;
+  z-index: -1;
   clear:both;
 }
+.proj-header{
+  display: block;
+  clear: both;
+}
+.hidden{
+  display: none;
+  position: relative;
+  z-index: -1;
+  clear:both;
+  font-family: 'Optima';
+}
+.empty-block{
+  display: block;
+  margin:140px;
+  clear:both;
+}
+.item{
+  font-size: 25px;
+  font-family: 'Optima';
+  ;text-shadow: 1px 1px 1px black;
+}
+.hi-im{
+  font-size: 60px;
+  color:#6f6d6f;
+  margin:80px;
+  margin-top: 100px !important;
+  font-family: 'Optima';
+}
+.title{
+  margin-top:40px;
+  font-size: 60px;
+  color:#6f6d6f;
+  font-family: 'Optima';
+}
+.trans{
+  font-size: 30px;
+}
+.proj-pic{
+  width:100%;
+  margin:30px;
+}
+.trans{
+  color: red;
+}
+.click{
+  margin-top:-15px;
+  margin-left:15px;
+  font-style: italic !important;
+}
+.git-pic{
+  height:4vw;
+}
+.git-pic:hover{
+  animation: pulse 2s infinite;
+}
+.proj1{
+  background-color: #b6b4b6;
+  border:none
+}
+.proj2{
+  background-color: #6f6d6f;
+}
+.home-pic{
+  border-radius: 50%;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+height: auto;
+width: auto;
+max-width: 65px;
+max-height: 65px;
+margin-top: 75px;
+border:3px solid black;
+-webkit-box-shadow: 1px 1px 1px 1px #fff;
+-moz-box-shadow: 1px 1px 1px 1px #fff;
+box-shadow: 1px 1px 1px 1px #fff;
+margin-top: auto;
+position: fixed;
+z-index: 1000;
+margin-left:25px;
+}
+.bigger{
+  border-radius: 50%;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+height: auto;
+width: auto;
+max-width: 200px;
+max-height: 200px;
+border:3px solid black;
+-webkit-box-shadow: 1px 1px 1px 1px #fff;
+-moz-box-shadow: 1px 1px 1px 1px #fff;
+box-shadow: 1px 1px 1px 1px #fff;
+}
+#msg{
+ position:fixed;
+ margin-left:100px;
+ color:black;
+ z-index:100;
+ font-weight:bold;
+ font-size: 19px;
+ font-family: 'Optima';
+}
+
+.contact{
+  color:white;
+  font-family: 'Optima';
+}
+.phone{
+  height:110%;
+  width:100%;
+  margin-top: -14px;
+  z-index:-10;
+}
+.iconz{
+  width:3vw;
+  margin:15px;
+}
+.ikon{
+  width:5vw;
+}
+.iconz:hover{
+  animation: pulse 1s infinite;
+}
+.phone-icon{
+  width:3vw;
+  /*margin-right:12vw;*/
+}
 .button:hover{
-  background-color: gray;
+  animation: pulse 2s infinite;
 }
-.projName{
-  color: #33cc33;
-  font-size: 20px;
-  text-shadow: 3px 3px black;
-
+.button{
+  width: 155px;
+  font-size: 155px;
 }
-#project {
-    display: inline-block;
+body{
+  font-family: 'Optima';
 }
-
-#project2 {
-    display: inline-block;
+.words{
+  font-family: 'Optima';
+  margin:40px;
+  text-shadow: 2px 2px 7px black;
+  color:#b6b4b6;
 }
-
-#project3 {
-    display: inline-block;
+.des{
+  font-family: 'Optima';
 }
-
-footer {
-    text-align: center;
-    clear: both;
-}*/
+.skills{
+  font-family: 'Optima';
+  font-size:35px;
+  text-shadow: 2px 2px 11px black;
+  color:#b6b4b6;
+}
+.aboutem{
+  margin-top: 60px !important;
+}
+#port{
+  margin-bottom:70px;
+}
