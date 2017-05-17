@@ -7,7 +7,8 @@ var parallax = require('scrollmonitor-parallax');
 
 
 app.use(express.static(__dirname +'/public'));
-
+app.use('/js',express.static(path.join(__dirname, 'public/javascripts')));
+app.use('/css',express.static(path.join(__dirname, 'public/stylesheets')));
 app.get('/', function index(req, res) {
   res.sendFile('/index.html', {
     root: __dirname
