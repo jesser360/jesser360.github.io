@@ -31,6 +31,27 @@ $('.home-pic').mouseleave(function(){
         $("#yardclick").addClass('hidden')
     });
 
+$(".shifra-still").hover(function(){
+     $("#shifra-still").attr("src","http://i.imgur.com/9c8o08V.gif");
+     $("#shifraclick").removeClass('hidden')
+   },
+   function()
+   {
+       $("#shifra-still").attr("src","http://i.imgur.com/kO9UN58.png");
+       $("#shifraclick").addClass('hidden')
+   });
+
+$(".race-still").hover(function(){
+    $("#race-still").attr("src","http://i.imgur.com/ncvBmnT.gif");
+    $("#raceclick").removeClass('hidden')
+  },
+  function()
+  {
+      $("#race-still").attr("src","http://i.imgur.com/9pso65w.png");
+      $("#raceclick").addClass('hidden')
+  });
+
+
 
 $('.item').click(function(){
 $(this).siblings('.active').removeClass('active');
