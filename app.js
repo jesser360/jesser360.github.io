@@ -51,6 +51,16 @@ $(".race-still").hover(function(){
       $("#raceclick").addClass('hidden')
   });
 
+  $(".tic-still").hover(function(){
+      $("#tic-still").attr("src","http://i.imgur.com/HLnO69O.gif");
+      $("#ticclick").removeClass('hidden')
+    },
+    function()
+    {
+        $("#tic-still").attr("src","http://i.imgur.com/4yK7jvw.png");
+        $("#ticclick").addClass('hidden')
+    });
+
 
 
 $('.item').click(function(){

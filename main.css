@@ -17,7 +17,7 @@
   position: relative;
   z-index: -1;
   clear:both;
-  font-family: 'Optima';
+  font-family: 'GT Walsheim';
 }
 .empty-block{
   display: block;
@@ -26,7 +26,7 @@
 }
 .item{
   font-size: 25px;
-  font-family: 'Optima';
+  font-family: 'GT Walsheim';
   ;text-shadow: 1px 1px 1px black;
 }
 .hi-im{
@@ -34,13 +34,15 @@
   color:#6f6d6f;
   margin:80px;
   margin-top: 100px !important;
-  font-family: 'Optima';
+  font-family: 'GT Walsheim';
+  ;text-shadow: 1px 1px 1px black;
 }
 .title{
   margin-top:40px;
   font-size: 60px;
   color:#6f6d6f;
-  font-family: 'Optima';
+  font-family: 'GT Walsheim';
+  ;text-shadow: 1px 1px 1px black;
 }
 .trans{
   font-size: 30px;
@@ -66,6 +68,9 @@
 .proj1{
   background-color: #b6b4b6;
   border:none
+}
+.tellem{
+  font-size: 19px;
 }
 .proj2{
   background-color: #6f6d6f;
@@ -108,12 +113,12 @@ box-shadow: 1px 1px 1px 1px #fff;
  z-index:100;
  font-weight:bold;
  font-size: 19px;
- font-family: 'Optima';
+ font-family: 'GT Walsheim';
 }
 
 .contact{
   color:white;
-  font-family: 'Optima';
+  font-family: 'GT Walsheim';
 }
 .phone{
   height:110%;
@@ -143,19 +148,19 @@ box-shadow: 1px 1px 1px 1px #fff;
   font-size: 155px;
 }
 body{
-  font-family: 'Optima';
+  font-family: 'GT Walsheim';
 }
 .words{
-  font-family: 'Optima';
+  font-family: 'GT Walsheim';
   margin:40px;
   text-shadow: 2px 2px 7px black;
   color:#b6b4b6;
 }
 .des{
-  font-family: 'Optima';
+  font-family: 'GT Walsheim';
 }
 .skills{
-  font-family: 'Optima';
+  font-family: 'GT Walsheim';
   font-size:35px;
   text-shadow: 2px 2px 11px black;
   color:#b6b4b6;
