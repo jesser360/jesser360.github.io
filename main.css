@@ -143,11 +143,6 @@ box-shadow: 1px 1px 1px 1px #fff;
   width:3.5vw;
   height:3.5vw;
 }
-.ikon-sml{
-  width:6.5vw;
-  height:3.5vw;
-  margin-left:20px !important;
-}
 .iconz:hover{
   animation: pulse 1s infinite;
 }
