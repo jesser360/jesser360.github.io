@@ -17,7 +17,7 @@
   position: relative;
   z-index: -1;
   clear:both;
-  font-family: 'GT Walsheim';
+  font-family: 'Josefin Sans';
 }
 .empty-block{
   display: block;
@@ -26,23 +26,27 @@
 }
 .item{
   font-size: 25px;
-  font-family: 'GT Walsheim';
+  font-family: 'Josefin Sans';
   ;text-shadow: 1px 1px 1px black;
 }
 .hi-im{
   font-size: 60px;
   color:#6f6d6f;
   margin:80px;
-  margin-top: 100px !important;
-  font-family: 'GT Walsheim';
-  ;text-shadow: 1px 1px 1px black;
+  margin-top: 60px !important;
+  font-family: 'Josefin Sans';
+  text-shadow: 1px 1px 1px black;
+  position:fixed;
+  z-index: -1;
 }
 .title{
-  margin-top:40px;
   font-size: 60px;
   color:#6f6d6f;
-  font-family: 'GT Walsheim';
+  font-family: 'Josefin Sans';
   ;text-shadow: 1px 1px 1px black;
+  position:fixed;
+  z-index: -1;
+
 }
 .trans{
   font-size: 30px;
@@ -67,8 +71,12 @@
 }
 .proj1{
   background-color: #b6b4b6;
-  border:none
-}
+  border:none;
+  background-image: url("http://i.imgur.com/Z2D2AVf.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  }
 .tellem{
   font-size: 19px;
 }
@@ -85,9 +93,9 @@ max-width: 65px;
 max-height: 65px;
 margin-top: 75px;
 border:3px solid black;
--webkit-box-shadow: 1px 1px 1px 1px #fff;
+/*-webkit-box-shadow: 1px 1px 1px 1px #fff;
 -moz-box-shadow: 1px 1px 1px 1px #fff;
-box-shadow: 1px 1px 1px 1px #fff;
+box-shadow: 1px 1px 1px 1px #fff;*/
 margin-top: auto;
 position: fixed;
 z-index: 1000;
@@ -109,16 +117,17 @@ box-shadow: 1px 1px 1px 1px #fff;
 #msg{
  position:fixed;
  margin-left:100px;
- color:black;
+ color:white;
  z-index:100;
  font-weight:bold;
  font-size: 19px;
- font-family: 'GT Walsheim';
+ font-family: 'Josefin Sans';
 }
 
 .contact{
   color:white;
-  font-family: 'GT Walsheim';
+  font-family: 'Josefin Sans';
+  margin-top: -70px !important;
 }
 .phone{
   height:110%;
@@ -131,7 +140,13 @@ box-shadow: 1px 1px 1px 1px #fff;
   margin:15px;
 }
 .ikon{
-  width:5vw;
+  width:3.5vw;
+  height:3.5vw;
+}
+.ikon-sml{
+  width:6.5vw;
+  height:3.5vw;
+  margin-left:20px !important;
 }
 .iconz:hover{
   animation: pulse 1s infinite;
@@ -148,26 +163,35 @@ box-shadow: 1px 1px 1px 1px #fff;
   font-size: 155px;
 }
 body{
-  font-family: 'GT Walsheim';
+  font-family: 'Josefin Sans';
 }
 .words{
-  font-family: 'GT Walsheim';
+  font-family: 'Josefin Sans';
   margin:40px;
   text-shadow: 2px 2px 7px black;
   color:#b6b4b6;
 }
 .des{
-  font-family: 'GT Walsheim';
+  font-family: 'Josefin Sans';
 }
 .skills{
-  font-family: 'GT Walsheim';
+  font-family: 'Josefin Sans';
   font-size:35px;
   text-shadow: 2px 2px 11px black;
   color:#b6b4b6;
+  margin:60px;
 }
 .aboutem{
-  margin-top: 60px !important;
+  /*margin-top: 60px !important;*/
 }
 #port{
   margin-bottom:70px;
+}
+.about-box{
+  background-color: black;
+  margin-left: -60px !important;
+  margin-top: 120px !important;
+}
+.port-back{
+  background-color: black;
 }
