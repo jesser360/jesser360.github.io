@@ -121,8 +121,11 @@ $("#contact-btn").click(function() {
 });
 
 // Parallax
+var awords = $('.reactword').offset().left;
+var aicons = $('.reacticon').offset().left;
 var words = $('.words');
 var icons = $('.icons');
+
 var scrollPos = window.pageYOffset;
 var parallaxW = function() {
   for (var i = 0, len = words.length; i < len; i++) {
@@ -144,13 +147,18 @@ var parallaxI = function() {
     icon.style.transform = translate3d;
   }
 };
-window.requestAnimationFrame(parallaxW);
+
 window.addEventListener('scroll', function() {
   // Parallax layers
+  if(aicons < 300){
+    window.cancelAnimationFrame(parallaxI);
+  }else {
   scrollPos = window.pageYOffset;
   window.requestAnimationFrame(parallaxW);
   window.requestAnimationFrame(parallaxI);
+  }
 });
+
 
 
 });
