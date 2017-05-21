@@ -70,9 +70,9 @@
   animation: pulse 2s infinite;
 }
 .proj1{
-  background-color: #b6b4b6;
+  background: linear-gradient(to right, #5d5c5d, #b6b4b6);
+  /*background-image: url("http://i.imgur.com/Z2D2AVf.png");*/
   border:none;
-  background-image: url("http://i.imgur.com/Z2D2AVf.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
@@ -81,7 +81,7 @@
   font-size: 19px;
 }
 .proj2{
-  background-color: #6f6d6f;
+  background: linear-gradient(to left, #5d5c5d, #b6b4b6);
 }
 .home-pic{
   border-radius: 50%;
