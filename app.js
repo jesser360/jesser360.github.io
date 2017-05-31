@@ -41,6 +41,24 @@ $(".shifra-still").hover(function(){
        $("#shifraclick").addClass('hidden')
    });
 
+   $(".wingit-still").hover(function(){
+       $("#wingit-still").attr("src","http://i.imgur.com/Bqy7FVj.gif");
+       $("#wingitclick").removeClass('hidden')
+     },
+     function()
+     {
+         $("#wingit-still").attr("src","http://i.imgur.com/6NYuaxQ.png");
+         $("#wingitclick").addClass('hidden')
+     });
+
+   $(".barkr-still").hover(function(){
+       $("#barkr-still").attr("src","http://i.imgur.com/lKEtZjl.gif");
+     },
+     function()
+     {
+         $("#barkr-still").attr("src","http://i.imgur.com/ftTPrmd.png");
+     });
+
 $(".race-still").hover(function(){
     $("#race-still").attr("src","http://i.imgur.com/ncvBmnT.gif");
     $("#raceclick").removeClass('hidden')
